@@ -36,7 +36,7 @@ Code Execution
 2. Visual Studio Compilation: Open the folder, select Build, and choose Rebuild All.
 
 -Teseo
-Compile [TESEO](https://github.com/cwida/teseo) and link it with your project.
+Compile [Teseo](https://github.com/cwida/teseo) and link it with your project.
 ```
 
 Command Line Arguments
