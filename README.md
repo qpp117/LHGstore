@@ -26,14 +26,17 @@ Method
 ```
 * `LHGstore` : Our proposed learned hierarchical graph storage.
 * `LGStore-baseline` : Our proposed baseline directly using learned index (non-hierarchical).
-* `alex_base.h` : comparison with the graph storage system.
+* `Teseo` : comparison with the graph storage system.
 ```
 
 Code Execution
 ```
+- LHGstore and LGstore
 1. GCC Compilation: Run make.sh to generate either the build or build_debug directory.
-
 2. Visual Studio Compilation: Open the folder, select Build, and choose Rebuild All.
+
+-Teseo
+Compile [TESEO](https://github.com/cwida/teseo) and link it with your project.
 ```
 
 Command Line Arguments
@@ -46,13 +49,4 @@ Index threshold (default value can be modified in the code).
 
 - directed
 Indicates whether the graph is directed (default is undirected).
-```
-
-running on `SA task`:
-```
-- IID case
-python YELP_Balanced.py --method Feed --conf conf/YELP_balanced_conf.json
-
-- Non-IID case
-python YELP_Imbalanced.py --method Feed --conf conf/YELP_imbalanced_conf.json
 ```
