@@ -31,11 +31,11 @@ Method
 
 Code Execution
 ```
-- LHGstore and LGstore
+* LHGstore and LGstore
 1. GCC Compilation: Run make.sh to generate either the build or build_debug directory.
 2. Visual Studio Compilation: Open the folder, select Build, and choose Rebuild All.
 
--Teseo
+* Teseo
 Compile [Teseo](https://github.com/cwida/teseo) and link it with your project.
 ```
 
