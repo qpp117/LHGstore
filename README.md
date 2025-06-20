@@ -1,4 +1,4 @@
-# Learned Hierarchical Graph Storage for Dynamic Graphs
+# LHGstore: A Learned Hierarchical Indexing for Fast Graph Updates and Analytics
 
 This repository contains the code and baselines for the manuscript:
 
